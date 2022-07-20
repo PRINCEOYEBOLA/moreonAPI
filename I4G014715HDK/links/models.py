@@ -3,6 +3,10 @@ from .utils import generate_random_id
 from django.utils.text import slugify
 from django.db import models
 from django.contrib.auth import get_user_model
+from .managers import ActiveLinkManager
+  
+        
+
 
 
 # Create your models here.
