@@ -17,21 +17,21 @@ class LinkListApi(viewsets.ModelViewSet):
     serializer_class = LinkSerializer
     
 
-class LinkCreateApi(viewsets.ModelViewSet):
+class PostCreateApi(viewsets.ModelViewSet):
     queryset = Link.objects.filter(active =True)
     serializer_class = LinkSerializer
 
 
-class LinkDetailApi(viewsets.ModelViewSet):
+class PostDetailApi(viewsets.ModelViewSet):
     queryset = Link.objects.filter(active =True)
     serializer_class = LinkSerializer
 
 
-class LinkUpdateApi(viewsets.ModelViewSet):
+class PostUpdateApi(viewsets.ModelViewSet):
     queryset = Link.objects.filter(active =True)
     serializer_class = LinkSerializer
 
-class LinkDeleteApi(viewsets.ModelViewSet):
+class PostDeleteApi(viewsets.ModelViewSet):
     queryset = Link.objects.filter(active =True)
     serializer_class = LinkSerializer
 
